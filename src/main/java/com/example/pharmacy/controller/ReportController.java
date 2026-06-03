@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/reports")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://pharmacy-management-frontend-neon.vercel.app")
 public class ReportController {
 
     @Autowired
