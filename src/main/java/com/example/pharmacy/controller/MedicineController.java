@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/medicines")
-@CrossOrigin(origins = "https://pharmacy-management-frontend-neon.vercel.app")
+@CrossOrigin(origins = "*")
 public class MedicineController {
 
     @Autowired
