@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/receipts")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://pharmacy-management-frontend-neon.vercel.app")
 public class ReceiptController {
     @Autowired
     private ReceiptService receiptService;
